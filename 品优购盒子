@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .news{
+               width: 332px;
+               height: 217px;
+               border: 3px solid #cbd0cc;
+        }
+        .news h4{
+            color: #515259;
+            font-size: 17px;
+            font-weight: 400;
+            padding: 0 17px;
+            margin:12px 0 ;
+
+        }
+        .news .line{
+            color:  #cbd0cc;
+        }
+        .news .box{
+            text-decoration: none;
+            color: #787677;
+            font-size: 16px;
+            margin: 13px 0;
+            padding: 0 26px;
+            height: 16px;
+        }
+         .news .box a {
+            text-decoration: none;
+            color: #787677;
+            font-size: 16px;
+         }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <h4>品优购快报</h4>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="box">
+            <a href="#">【特惠】 爆款耳机5折秒！</a>
+        </div>
+        <div class="box">
+            <a href="#">【特惠】 母亲节，健康好礼低至5折！</a>
+        </div>
+        <div class="box">
+            <a href="#">【特惠】 爆款耳机5折秒！</a>
+        </div>
+        <div class="box">
+            <a href="#">【特惠】9.9元洗100张照片！</a>
+        </div>
+        <div class="box">
+            <a href="#">【特惠】长虹智能空调立省1000</a>
+        </div>
+    </div>
+</body>
+</html>
